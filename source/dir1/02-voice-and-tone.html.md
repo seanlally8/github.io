@@ -33,9 +33,9 @@ MailChimp has a sense of humor, so feel free to be funny when it’s appropriate
 
 ## Style tips
 
-Here are a few key elements of writing MailChimp’s voice. For more, see the [Grammar and mechanics section](/04-grammar-and-mechanics.html.md).
+Here are a few key elements of writing MailChimp’s voice. For more, see the [Grammar and mechanics section](04-grammar-and-mechanics.html).
 
-* [**Active voice**](/04-grammar-and-mechanics.html.md/#header-3-active-voice) Use active voice. Avoid passive voice.
+* [**Active voice**](04-grammar-and-mechanics.html/#header-3-active-voice) Use active voice. Avoid passive voice.
 * [**Avoid slang and jargon**](/04-grammar-and-mechanics.html.md/#header-3-slang-and-jargon) Write in plain English.
 * [**Write positively**](/04-grammar-and-mechanics.html.md/#header-3-write-positively) Use positive language rather than negative language.
 

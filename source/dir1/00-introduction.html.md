@@ -1,7 +1,5 @@
----
-title: Welcome to the Urbanist Architecture Content Style Guide
----
-##Welcome to the Urbanist Architecture Content Style Guide
+
+## Welcome to the Urbanist Architecture Content Style Guide
 
 This style guide was created for Urbanist Architecture employees. It is based on MailChimp's open source style guide.
 
