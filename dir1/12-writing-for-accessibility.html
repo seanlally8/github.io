@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Writing for Accessibility</title>
+
+    <script src="/javascripts/site.js"></script>
+  </head>
+  <body>
+
+    <html>
+
+    <style>
+
+
+.h1{
+  text-align:right;
+}
+    .nav {
+      text-align: center;
+      font-size: 20px;
+    }
+    .sidenav {
+        height: 100%; /* Full-height: remove this if you want "auto" height */
+        width: 35%; /* Set the width of the sidebar */
+        position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 70px;
+        text-align: center;
+        background-color: #FFFFE0;
+
+    }
+
+    .main {
+        margin-left: 35%; /* Same as the width of the sidenav */
+        height: 100%;
+        overflow: hidden;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 70px;
+    }
+
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
+
+      </style>
+
+
+      <div class="sidenav">
+
+<a href="/dir1/00-introduction.html">          <img src="/images/URBANIST-ARCHITECTURE-LOGO.png" alt="Urbanist architecture logo" />
+</a><br><br>
+        <h2 class="title">
+          Urbanist Architecture Content Style Guide
+        </h2>
+
+<br>
+<nav>
+    <br>  <a href="/dir1/01-writing-principles.html">Writing Principles</a><br>
+      <br>
+    <a href="/dir1/02-voice-and-tone.html">Voice and Tone</a><br>
+      <br>
+    <a href="/dir1/03-writing-about-people.html">Writing About People</a><br>
+        <br>
+    <a href="/dir1/04-grammar-and-mechanics.html">Grammar and Mechanices</a><br>
+          <br>
+    <a href="/dir1/06-web-elements.html">Web Elements</a><br>
+            <br>
+    <a href="/dir1/07-writing-blog-posts.html">Writing Blog Posts</a><br>
+              <br>
+    <a href="/dir1/08-writing-technical-content.html">Writing Technical Content</a><br>
+              <br>
+    <a href="/dir1/11-writing-for-social-media.html">Writing for Social Media</a><br>
+              <br>
+
+    <a href="/dir1/12-writing-for-accessibility.html">Writing for Accessibility</a><br>
+                <br>
+    <a href="/dir1/14-creating-structured-content.html">Creating Structured Content</a><br>
+                  <br>
+    </nav>
+            </div>
+
+
+
+<div class="main">
+<h2 id="writing-for-accessibility">Writing for Accessibility</h2>
+
+<p>We’re always working to make our content more accessible and usable to the widest possible audience. Writing for accessibility goes way beyond making everything on the page available as text. It also affects the way you organize content and guide readers through a page. Depending on the audience and country, there may be laws governing the level of accessibility required. At minimum, an accessible version should be available. Accessibility includes users of all mental and physical capacities, whether situational (broken glasses!) or more permanent.</p>
+
+<h2 id="basics">Basics</h2>
+
+<p>We write for a diverse audience of readers who all interact with our content in different ways. We aim to make our content accessible to anyone using a screen reader, keyboard navigation, or Braille interface, and to users of all cognitive capabilities.</p>
+
+<p>As you write, consider the following:</p>
+
+<ul>
+  <li>Would this language make sense to someone who doesn’t work here?</li>
+  <li>Could someone quickly scan this document and understand the material?</li>
+  <li>If someone can’t see the colors, images or video, is the message still clear?</li>
+  <li>Is the markup clean and structured?</li>
+  <li>Mobile devices with accessibility features are increasingly becoming core communication tools, does this work well on them?</li>
+</ul>
+
+<p>Many of the best practices for writing for accessibility echo those for <a href="/08-writing-technical-content.html.md">writing technical content</a>, with the added complexity of markup, syntax, and structure.</p>
+
+<h2 id="guidelines">Guidelines</h2>
+
+<h3 id="avoid-directional-language">Avoid directional language</h3>
+
+<p>Avoid directional instructions and any language that requires the reader to see the layout or design of the page. This is helpful for many reasons, including layout changes on mobile.</p>
+
+<ul>
+  <li>Yes: “Select from these options,” (with the steps listed after the title)</li>
+  <li>No: “Select from the options in the right sidebar.”</li>
+</ul>
+
+<h3 id="use-headers">Use headers</h3>
+
+<p>Headers should always be nested and consecutive. Never skip a header level for styling reasons. To help group sections, be sure the page title is H1, top-level sections are H2s, and subsequent inside those are H3 and beyond. Avoid excessive nesting.</p>
+
+<h3 id="employ-a-hierarchy">Employ a hierarchy</h3>
+
+<p>Put the most important information first. Place similar topics in the same paragraph, and clearly separate different topics with headings.</p>
+
+<p>Starting with a simple outline that includes key messages can help you create a hierarchy and organize your ideas in a logical way. This improves scannability and encourages better understanding.</p>
+
+<p>Make true lists instead of using a paragraph or line breaks.</p>
+
+<h3 id="label-forms">Label forms</h3>
+
+<p>Label inputs with clear names, and use appropriate tags. Think carefully about what fields are necessary, and especially which ones you mark as required. Label required fields clearly. The shorter the form, the better.</p>
+
+<h3 id="use-descriptive-links">Use descriptive links</h3>
+
+<p>Links should provide information on the associated action or destination. Try to avoid “click here” or “learn more.”</p>
+
+<h3 id="use-plain-language">Use plain language</h3>
+
+<p>Write short sentences and use familiar words. Avoid jargon and slang. If you need to use an abbreviation or acronym that people may not understand, explain what it means on first reference.</p>
+
+<h3 id="use-alt-text">Use alt text</h3>
+
+<p>The alt tag is the most basic form of image description, and it should be included on all images. The language will depend on the purpose of the image:</p>
+
+<ul>
+  <li>If it’s a creative photo or supports a story, describe the image in detail in a brief caption.</li>
+  <li>If the image is serving a specific function, describe what’s inside the image in detail. People who don’t see the image should come away with the same information as if they had.</li>
+  <li>If you’re sharing a chart or graph, include the data in the alt text so people have all the important information.</li>
+</ul>
+
+<p>Each browser handles alt tags differently. Supplement images with standard captions when possible.</p>
+
+<h3 id="make-sure-closed-captioning-is-available">Make sure closed captioning is available</h3>
+
+<p>Closed captioning or transcripts should be available for all videos. The information presented in videos should also be available in other formats.</p>
+
+<h3 id="be-mindful-of-visual-elements">Be mindful of visual elements</h3>
+
+<p>Aim for high contrast between your font and background colors. Tools in the resources section should help with picking accessible colors.</p>
+
+<p>Images should not be the only method of communication, because images may not load or may not be seen. Avoid using images when the same information could be communicated in writing.</p>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+  <li><a href="http://www.4syllables.com.au/2013/05/writers-accessibility-evaluation/">Accessibility evaluation for web writers</a></li>
+  <li><a href="http://bitsofco.de/2015/the-accessibility-cheatsheet/">Accessibility cheatsheet</a></li>
+  <li><a href="https://pages.18f.gov/accessibility/">18F Accessibility Guide</a></li>
+  <li><a href="http://webaim.org/techniques/screenreader/">Designing for Screen Reader Compatibility</a></li>
+  <li><a href="http://colorsafe.co/">Accessible color combinations</a></li>
+  <li><a href="http://wave.webaim.org/">WAVE Web Accessibility Evaluation Tool</a></li>
+</ul>
+
+</div>
+
+
+  </body>
+</html>
